@@ -15,4 +15,4 @@ h = fspecial('disk', 9);
 
 numIter = 50;
 
-es_x = deconv(img, y, h, numIter);
+es_x = projDeconv(img, y, h, numIter);
