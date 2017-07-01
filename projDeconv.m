@@ -1,4 +1,4 @@
-function [ es_x ] = deconv(img, y, h, numIter )
+function [ es_x ] = projDeconv(img, y, h, numIter )
 
 mask = ones(size(y));
 mask = padarray(mask, [20,20], 'both');
