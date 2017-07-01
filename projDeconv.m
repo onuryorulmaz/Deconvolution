@@ -47,7 +47,7 @@ for it = 1: numIter
     psnr_val = psnr(es_x(21:end-20,21:end-20), img);
     psnr_vec(it) = psnr_val;
 
-    fprintf('Error : %.2fdB\n', psnr_val);
+    fprintf('PSNR : %.2fdB\n', psnr_val);
     
     
     subplot(2,2,1)
